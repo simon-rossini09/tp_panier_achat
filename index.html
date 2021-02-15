@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Achats et montant</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="achats.js"></script>
+</head>
+	<body>
+		<table class="table table-dark" id="facture">
+	  		<thead>
+	  			<tr>
+	  				<th>Quantité</th>
+	  				<th>Prix unitaire</th>
+	  				<th>Total</th>
+	  			</tr>
+	  		</thead>
+  			<tbody>
+    			<tr class="table-active">
+      				<td var prix= quantite id="quantite"><input type="number" name="quantite"></td>
+      				<td var prix= prix  id="prix"><input type="number" name="prix"></td>
+      				<td var total= quantite*prix id="total"><input type="number" name="total"></td>
+    			</tr>
+    		</tbody>
+		</table>
+<br>
+<br>
+<br>
+		<table class="table table-dark" id="montant">
+  <tbody>
+    	<tr class="table-active">
+      		<td>Net à payer</td>
+      		<td var montant = >Montant</td>
+    	</tr>
+  </tbody>
+	</table>
+</body>
+</html>
